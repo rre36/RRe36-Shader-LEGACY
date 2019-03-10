@@ -1,0 +1,95 @@
+v7 - The Realistic Update:
+- Switched to Chocapic13 Beta 4.7.1:
+	- 2D Rendered Realistic Clouds
+	- Realistic Sky
+	- Sharper Shadows
+	- Hardware Shadow Filtering
+	- Bokeh-DOF Effect
+	- New Bloom
+	- Faster Godrays
+	- General Improvements
+- Added Dynamic Fog
+- Improved Water-Waving Effect
+- Ported POM and Normal-mapping
+- Improved Look of new 2D Clouds
+- Integrated Sildur's Flicker Fix
+- Ported Lens Features and Particles
+- Improved Shadow-look while raining
+- Added Color variables only for Sky and Fog
+- Added IMAX DOF-profile (google IMAX for more information)
+- Little Torchlight changes
+- POM is disabled by default (activate it in gbuffer_terrain.fsh)
+- Ported Sildur's Block Reflections
+- Ported my Waving Elements
+- Clouds are getting bigger while raining
+- Better Wind-Fading from clear to rain
+- Dynamic Waterwave-strength
+- Changed Cloud-Wind-speed
+- Improved Midnight-Godrays
+- Increased Sun Path Rotation
+- Added Torchlight Jitter
+- Bigger Sun
+- Changed Watercolor and -transparency
+- Changed Torchlight a bit
+- New Water-Bumpmap
+- Clouds are growing and shrinking slightly
+- More realistic Cloudstyle
+- Improved Rain-Reflection look
+- Fixed Clouds are getting faster with time
+
+v6 - The Rain Update:
+- Activated hidden Lens Features (like Lens Haloing)
+- Cleaned up the Code = removed composite2
+- Brighter Middays
+- New Color system for Contrast
+- DOF Profiles now are configurable with #define lines
+- Little Changes of Waving Water Effect
+- Rain Fixes:
+	- Removed Shadows while Raining
+	- Removed Lens Flare while Raining
+	- Removed Godrays while Raining
+	- Waving Effect Strength increases with Rain Level
+
+v5:
+- New gbuffers_water from Chocapic13 v4.4
+- Fixed ''bloody water'' bug
+- New Water Reflections from Chocapic13 v4.4
+- Better Parallax Displacement aka. POM- New Watercolor
+- Fixed colour bug at midnight- Reflections now are stored in composite2
+- Little DOF Effect Changes
+- New Structure in shader files
+- Less strong Water Reflections
+- Little changes with Waving Water
+
+v4.1:
+- Fixed rain reflections / block reflections with code from Sildur's Vibrant Shaders
+
+v4:
+- Removed orange sunrise sky
+- better world curvature
+- canged water reflections and watercolor
+- some other little things i can't remember
+
+v3.1:
+- Readded custom waving elements
+
+v3.0:
+- Added Normal Mapping and Parallax Occlusion
+- programs gbuffers_skybasic and gbuffers_skytextured for better skycolors
+- added World Curvature.
+
+v2.2:
+- Shadows now are a bit brighter
+- Sun is now orange while sunrise.
+
+v2.1:
+- Fixing Moonlight bug complete
+- added Waving Tallgrass for 1.7
+
+v2:
+- Fixed Moonrise/Moonset light bug
+- Shadows now show more details / sharper shadows
+- changed brightness a bit
+
+v1:
+- first public release
