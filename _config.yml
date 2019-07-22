@@ -24,8 +24,9 @@ description: Discontinued Project
 # List of links in the navigation bar
 navbar-links:
   Projects: 
-    - Kappa Shader: "https://rre36.github.io/GLSL-ShaderRepo/"
-    - Nostalgia Shader: "https://rre36.github.io/GLSL-LegacyShader"
+    - Kappa Shader: "https://rre36.github.io/glsl_kappa/"
+    - Nostalgia Shader: "https://rre36.github.io/glsl_nostalgia"
+    - Various Projects: "http://rre36.github.io/glProjectsWeb"
     - RRe36's Shader: "https://rre36.github.io/rre36-shader-legacy"
   License: "https://github.com/rre36/rre36-shader-legacy/blob/master/LICENSE"
 
